@@ -1,4 +1,4 @@
-package com.example.demo;
+ package com.example.demo;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,10 +10,10 @@ public class MainController {
 
     @GetMapping("/")
     public ResponseEntity<String> home(){
-        return ResponseEntity.ok("Welcome to home page");
+        return ResponseEntity.ok("Well done");
     }
     @GetMapping("/demo")
     public ResponseEntity<String> demo(){
-        return ResponseEntity.ok("Welcome to Demo Page!");
+        return ResponseEntity.ok("Well done");
     }
 }
