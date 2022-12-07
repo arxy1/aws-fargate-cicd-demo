@@ -1,15 +1,15 @@
 # aws-fargate-cicd-demo
 
-pipeline{
+// pipeline{
     agent any
     tools {
     maven "maven"
     }
         stages {
-    stage('Clone From Repo'){
+   // stage('Clone From Repo'){
          steps {
-             script {
-      git credentialsId: 'GitHub-Credentials', url: 'https://github.com/arxy1/cicd-container.git'
+       //      script {
+   //   git credentialsId: 'GitHub-Credentials', url: 'https://github.com/arxy1/cicd-container.git'
     }
          }
     }
